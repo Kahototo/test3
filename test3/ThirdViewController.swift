@@ -39,6 +39,10 @@ class ThirdViewController: UIViewController {
     let button7 = UIButton()
     let button8 = UIButton()
     
+    var count = 0
+    
+    @objc var Stamp1: UIButton!
+    
     
     
     @IBAction func pushStamp1(sender:UIButton) {
@@ -124,7 +128,7 @@ class ThirdViewController: UIViewController {
         
         
         //スクロールビューについて//
-        
+
         //UIScrollViewのインスタンス作成
         var scrollView = UIScrollView()
         //scrollViewの大きさを設定。
@@ -135,6 +139,7 @@ class ThirdViewController: UIViewController {
         scrollView.backgroundColor = UIColor.gray
         //scrollViewをviewのSubViewとして追加
         self.view.addSubview(scrollView)
+
         
         //buttonをスクロールビューに追加//
         

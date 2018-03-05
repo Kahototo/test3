@@ -17,6 +17,7 @@
 		5E3AAE4F203FB1590062C00F /* color3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E3AAE4B203FB1580062C00F /* color3.png */; };
 		5E3AAE50203FB1590062C00F /* color4.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E3AAE4C203FB1580062C00F /* color4.png */; };
 		5E3AAE53203FB3A70062C00F /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3AAE52203FB3A70062C00F /* ThirdViewController.swift */; };
+		5E8006C1204409E100C1314A /* SizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8006C0204409E100C1314A /* SizeViewController.swift */; };
 		5E9B6264203AB436001009BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9B6263203AB436001009BB /* AppDelegate.swift */; };
 		5E9B6266203AB436001009BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9B6265203AB436001009BB /* ViewController.swift */; };
 		5E9B6269203AB436001009BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E9B6267203AB436001009BB /* Main.storyboard */; };
@@ -54,6 +55,7 @@
 		5E3AAE4B203FB1580062C00F /* color3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color3.png; sourceTree = "<group>"; };
 		5E3AAE4C203FB1580062C00F /* color4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color4.png; sourceTree = "<group>"; };
 		5E3AAE52203FB3A70062C00F /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		5E8006C0204409E100C1314A /* SizeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeViewController.swift; sourceTree = "<group>"; };
 		5E9B6260203AB436001009BB /* test3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E9B6263203AB436001009BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E9B6265203AB436001009BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 				5E9B6265203AB436001009BB /* ViewController.swift */,
 				5E3AAE47203FA4B90062C00F /* SecondViewController.swift */,
 				5E3AAE52203FB3A70062C00F /* ThirdViewController.swift */,
+				5E8006C0204409E100C1314A /* SizeViewController.swift */,
 				5E9B6267203AB436001009BB /* Main.storyboard */,
 				5E9B626A203AB436001009BB /* Assets.xcassets */,
 				5E9B626C203AB436001009BB /* LaunchScreen.storyboard */,
@@ -306,6 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E3AAE48203FA4B90062C00F /* SecondViewController.swift in Sources */,
+				5E8006C1204409E100C1314A /* SizeViewController.swift in Sources */,
 				5E9B6266203AB436001009BB /* ViewController.swift in Sources */,
 				5E3AAE53203FB3A70062C00F /* ThirdViewController.swift in Sources */,
 				5E9B6264203AB436001009BB /* AppDelegate.swift in Sources */,
@@ -475,6 +479,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E6CY4VNDT2;
 				INFOPLIST_FILE = test3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.litech.test3;
@@ -489,6 +494,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E6CY4VNDT2;
 				INFOPLIST_FILE = test3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.litech.test3;
